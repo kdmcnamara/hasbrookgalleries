@@ -2,6 +2,9 @@
   "name": "",
   "version": "",
   "main": "src/app.js",
+  "scripts": {
+    "start": "node src/app.js"
+  },
   "dependencies": {
     "express": "^4.16.4",
     "nodemon": "^1.18.9"
