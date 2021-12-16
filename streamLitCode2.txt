@@ -1,0 +1,89 @@
+_____________________________________________________
+import streamlit as st
+import pandas as pd 
+import alitair as alt
+
+st.write("Hello class")
+
+@st.chache
+def load(url):
+	return pd.read_json(url)
+
+df = load("LINK")
+
+st.checkbox("Show Raw Data"):
+	st.write(df);
+
+st.write("# selection types")
+
+scatter = alt.CHart(df).mark_circle(size = 200).encode(
+alt.X("FLIPPER LEN", scale = alt.Scale(zero = False)),
+alt.y("Y TITLE", scale = alt.Scale(zero = false)),
+alt.Color("species")
+).
+
+picked = alt.selection_single(); // this is the point someone clicked on, and you can use that to conditionally change the color of a point
+
+picked = alt.selection_single(on="mouseover") // will select specifically if your mouse hovers over something
+
+picked = alt.selection_interval() // will let you select a whole range of data
+
+picked = alt.selection_single(encodings=["color"]) // will select all datapoints that share the same color
+
+picked = alt.selection_single(fields=["Species", "Island"]) // selects for all species and island pairs
+
+st.write(scatter.encode(color=alt.condition(picked, "specicies:N", alt.value("lightgray")).add_selection(picked));
+_____________________________________________________
+with movie data 
+
+alt.Chart(movies).mark_area().encode(
+	alt.X("year(Release Date)"), 
+	alt.Y("Count()")
+}.properties(width = 600)
+
+brush = alt.selection_inverval()
+
+st.write(base.encode(alt.X("year"), scale = alt.Scale(domain = brush)) & base.properties(height = 50).add_selection(brush))
+// now the binding of the brush selection is bound to the domain of the top chart!! 
+
+we want to have a brush in a lower chart that will zoom the chart on the top chart
+_____________________________________________________
+with flight data!! 
+**see code from lecture** 
+_____________________________________________________
+FOR SQL DATA!!
+
+select * from read_csv_auto(weather.csv) limit 10; // limit means we only look at 10 of them
+
+create table weather as select * from read_csv_auto(weather.csv);
+
+select count(*) from weather;
+
+select distinct location from weather // removes all the duplicates 
+
+select count(*) from weather where location = "Seattle"
+OR 
+select count(*) from weather where location like 'S%'
+
+find where minimum temperature is less than -10 degrees
+select location 
+from weather 
+group by location
+having min(temp_min) < -10
+
+
+select location, date, (temp_max + temp_min) / 2 as temp_mid
+from weather
+
+select * 
+from weather 
+order by precipitation // selecting everything, sorting by increasing precipitation
+
+select * 
+from weather
+group by temp_max
+where temp_max = (select max(temp_max) from weather)
+
+create view joined_weather as ..... // and then you can write a query from this new view.. 
+example: select * 
+	from joined_weather
