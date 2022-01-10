@@ -1,0 +1,60 @@
+<!DOCTYPE html>
+<html lang="en-us">
+  <head>
+    <link href="https://fonts.googleapis.com/css?family=Kodchasan" rel="stylesheet">
+    <style>
+    h1 {
+      font-family: "Kodchasan";
+      }
+    a {
+      text-decoration: none;
+      }
+
+    a:hover {
+      text-decoration: none;
+      }
+    </style>
+    <meta charset="utf-8">
+    <meta http-equiv="Content-Type" content="text/html; charset=utf-8">
+    <title>Unity WebGL Player | UGH</title>
+  </head>
+  <body style="text-align: center;
+    font-family: Kodchasan; text-decoration:none" >
+    <!--div class="webgl-content">
+      <div id="unityContainer" style="width: 100vw; height: 100vh;">
+    </div>
+    <canvas id="unity-canvas" width=960 height=600 style="width: 960px; height: 600px; background: #231F20"></canvas-->
+    <script src="Build/THEWEBBUILD.loader.js"></script>
+    <script>
+      if (/iPhone|iPad|iPod|Android/i.test(navigator.userAgent)) {
+        // Mobile device style: fill the whole browser client area with the game canvas:
+        var meta = document.createElement('meta');
+        meta.name = 'viewport';
+        meta.content = 'width=device-width, height=device-height, initial-scale=1.0, user-scalable=no, shrink-to-fit=yes';
+        document.getElementsByTagName('head')[0].appendChild(meta);
+      }
+
+      createUnityInstance(document.querySelector("#unity-canvas"), {
+        dataUrl: "Build/THEWEBBUILD.data.gz",
+        frameworkUrl: "Build/THEWEBBUILD.framework.js.gz",
+        codeUrl: "Build/THEWEBBUILD.wasm.gz",
+        streamingAssetsUrl: "StreamingAssets",
+        companyName: "DefaultCompany",
+        productName: "UGH",
+        productVersion: "0.1",
+        // matchWebGLToCanvasSize: false, // Uncomment this to separately control WebGL canvas render size and DOM element size.
+        // devicePixelRatio: 1, // Uncomment this to override low DPI rendering on high DPI displays.
+      });
+    </script>
+    <div class="webgl-content">
+      <div id="unityContainer" style="width: 960px; height: 600px"></div>
+      <div class="footer">
+        <!--div class="webgl-logo"></div-->
+        <div class="fullscreen" onclick="unityInstance.SetFullscreen(1)">Enter Full Screen</div>
+        <a href="../hyper_contempp.html">
+          back to web view
+        </a>
+      </div>
+    </div>
+  </body>
+</html>
