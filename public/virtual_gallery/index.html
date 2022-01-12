@@ -25,7 +25,7 @@
   </head>
   <body style="text-align: center">
     <canvas id="unity-canvas" width=960 height=600 style="width: 960px; height: 600px; background: #231F20"></canvas>
-    <script src="Build/virtual_gallery_min.loader.js"></script>
+    <script src="Build/final_hope.loader.js"></script>
     <script>
       if (/iPhone|iPad|iPod|Android/i.test(navigator.userAgent)) {
         // Mobile device style: fill the whole browser client area with the game canvas:
@@ -36,9 +36,9 @@
       }
 
       createUnityInstance(document.querySelector("#unity-canvas"), {
-        dataUrl: "Build/virtual_gallery_min.data",
-        frameworkUrl: "Build/virtual_gallery_min.framework.js",
-        codeUrl: "Build/virtual_gallery_min.wasm",
+        dataUrl: "Build/final_hope.data.unityweb",
+        frameworkUrl: "Build/final_hope.framework.js.unityweb",
+        codeUrl: "Build/final_hope.wasm.unityweb",
         streamingAssetsUrl: "StreamingAssets",
         companyName: "DefaultCompany",
         productName: "UGH",
@@ -51,7 +51,7 @@
     <div class="webgl-content">
       <div class="footer">
         <!--div class="webgl-logo"></div-->
-        <div style="font-family: Kodchasan; text-decoration:none" onclick="unityInstance.SetFullscreen(1)">Full Screen</div>
+        <button style="font-family: Kodchasan; font-size:16px; text-decoration:none; border: none; background-color: white" onclick=unityInstance.SetFullscreen(1)>Full Screen</button>
         <div><a href="../hyper_contempp.html">Back To Web Viewer</a></div> 
       </div>
     </div>
