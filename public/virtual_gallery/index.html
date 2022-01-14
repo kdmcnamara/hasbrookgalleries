@@ -4,28 +4,10 @@
     <meta charset="utf-8">
     <meta http-equiv="Content-Type" content="text/html; charset=utf-8">
     <title>Unity WebGL Player | UGH</title>
-    <link href="https://fonts.googleapis.com/css?family=Kodchasan" rel="stylesheet">
-    <style>
-	
-    a {
-      font-family: "Kodchasan";
-	    color: black;
-      text-decoration: none;
-    }
-
-    h1 {
-	    font-family: "Kodchasan";
-	  }
-    h1 a {
-	    margin: 20px;
-	    color: black;
-	    text-decoration: none;
-	  }
-    </style>
   </head>
   <body style="text-align: center">
     <canvas id="unity-canvas" width=960 height=600 style="width: 960px; height: 600px; background: #231F20"></canvas>
-    <script src="Build/final_hope.loader.js"></script>
+    <script src="Build/virt_gal_final.loader.js"></script>
     <script>
       if (/iPhone|iPad|iPod|Android/i.test(navigator.userAgent)) {
         // Mobile device style: fill the whole browser client area with the game canvas:
@@ -36,9 +18,9 @@
       }
 
       createUnityInstance(document.querySelector("#unity-canvas"), {
-        dataUrl: "Build/final_hope.data.unityweb",
-        frameworkUrl: "Build/final_hope.framework.js.unityweb",
-        codeUrl: "Build/final_hope.wasm.unityweb",
+        dataUrl: "Build/virt_gal_final.data.unityweb",
+        frameworkUrl: "Build/virt_gal_final.framework.js.unityweb",
+        codeUrl: "Build/virt_gal_final.wasm.unityweb",
         streamingAssetsUrl: "StreamingAssets",
         companyName: "DefaultCompany",
         productName: "UGH",
@@ -47,13 +29,5 @@
         // devicePixelRatio: 1, // Uncomment this to override low DPI rendering on high DPI displays.
       });
     </script>
-
-    <div class="webgl-content">
-      <div class="footer">
-        <!--div class="webgl-logo"></div-->
-        <button style="font-family: Kodchasan; font-size:16px; text-decoration:none; border: none; background-color: white" onclick=unityInstance.SetFullscreen(1)>Full Screen</button>
-        <div><a href="../hyper_contempp.html">Back To Web Viewer</a></div> 
-      </div>
-    </div>
   </body>
 </html>
