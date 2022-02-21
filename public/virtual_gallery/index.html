@@ -6,6 +6,16 @@
     <title>Unity WebGL Player | UGH</title>
     <link rel="shortcut icon" href="TemplateData/favicon.ico">
     <link rel="stylesheet" href="TemplateData/style.css">
+    <link href="https://fonts.googleapis.com/css?family=Kodchasan" rel="stylesheet">
+    <style>
+      .name {
+        color: pink;
+        font-size: 12px;
+        padding: 3px;
+        text-align: center;
+        font-family: "Kodchasan";
+        }
+    </style>
   </head>
   <body>
     <div id="unity-container" class="unity-desktop">
@@ -13,13 +23,14 @@
       <canvas id="unity-canvas"></canvas>
       <div id="unity-loading-bar">
         <!--div id="unity-logo"></div!-->
-        <div>Please be patient, takes a moment to load :)</div>
+        <div class="name">Please be patient, takes a moment to load :)</div>
+        <div class="name">Once loaded, explore the gallery by clicking the floor!</div>
         <div id="unity-progress-bar-empty">
           <div id="unity-progress-bar-full"></div>
         </div>
       </div>
-      <div id="unity-warning"> </div>
-      <!--div id="unity-footer">
+      <!--div id="unity-warning"> </div>
+      <div id="unity-footer">
         <div id="unity-webgl-logo"></div>
         <div id="unity-fullscreen-button"></div>
         <div id="unity-build-title">UGH</div>
