@@ -1,0 +1,61 @@
+<!DOCTYPE html>
+<html>
+<head>
+  <link rel = "stylesheet" type="text/css" href = "../hasbrook_pages_formatting.css">
+  <link href="https://fonts.googleapis.com/css?family=Kodchasan" rel="stylesheet">
+</head>
+
+<h1> <a href="../return_to_mysticisim.html"> HASBROOK GALLERIES </h1>
+
+<ul class="nav1">
+    <li><a href = "../return_to_mysticisim.html"> Return to Mysticisim </a></li>
+    <!--li><a href = "../nostalgia_page.html">Nostalgia</a></li-->
+    <li><a href="../hyper_contempp.html">Hyper-Contemporary</a></li>
+    <li><a href="../about.html">About</a></li>
+    <!--li-->
+    <div class = "dropdown"> 
+    <button class = "dropbtn" onmouseover="myFunction()"> Past Shows
+    </button>
+    <div class = 'dropdown-content' id = 'myDropdown'>
+        <a href ="../contemp_surrealism.html">Contemporary Surrealism</a>
+        <a href="../figurations.html">Figurative</a>
+        <a href="../unlined.html">Unlined</a>
+        <a href="../action_reaction.html">Library</a>
+        <a href="../hyper_contempp.html">Hyper-Contemporary</a>
+        <a href="../nft.html">nfts</a>
+    </div>
+    </div>
+    <!--/li-->
+</ul>
+
+<div class="row">
+	<div>
+	<img class="work" src="Lawn_Moth_Rachel_Hayden.jpg">
+	</div>
+	<div class = "aboutTheWork">
+		<h1 class = "title"> Lady Bug Bite </h1>
+    <h2 class = "artistInfoEtc"> Vyczie Dorado </h2>
+		<h4 class = "artistInfoEtc"> Acrylic, Pastel, Graphite, Colored Pencil and Felt on Canvas </h3>
+		<h4 class = "artistInfoEtc"> 47 x 47 in </h4>
+		<p2 class = "artistBio"> About the Work :: Being immunocompromised, Vyczie explores the idea of hereditary illness and the concept of a biological “heirloom” as a consistent characteristic within her work. Now, with the introduction of COVID as of early 2019, this exploration has shifted into a broader concept of the representation of the internally handicapped body in relation to the gallery space. By exhibiting these disabled persons in a ranging field of themes from mundane moments to relationships of longing, the dynamic of aimlessly drifting in thoughts work to bridge the subject of the artwork to the viewer. These genderless, nondescript vessels become avatars for the viewer and exist on the cusp of fiction and reality as they simultaneously experience the pandemic as one.
+             </p2>
+	  <div class="paylink"><a href="mailto:hasbrookgalleries@gmail.com">contact for purchase</a></div>
+</div>
+</div>
+</html>
+
+
+<script>
+    function myFunction() {
+      document.getElementById("myDropdown").classList.toggle("show");
+    }
+
+    window.onmouseover = function(e) {
+      if (!e.target.matches('.dropbtn') && !e.target.matches('.dropdown-content a')) {
+      var myDropdown = document.getElementById("myDropdown");
+        if (myDropdown.classList.contains('show')) {
+          myDropdown.classList.remove('show');
+        }
+      }
+    }
+</script>

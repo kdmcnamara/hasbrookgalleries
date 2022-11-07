@@ -1,0 +1,67 @@
+<!DOCTYPE html>
+<html>
+<head>
+  <link rel = "stylesheet" type="text/css" href = "../hasbrook_pages_formatting.css">
+  <link href="https://fonts.googleapis.com/css?family=Kodchasan" rel="stylesheet">
+</head>
+
+<h1> <a href="../hyper_contemp_act_ii.html"> HASBROOK GALLERIES </h1>
+
+<ul class="nav1">
+    <li><a href = "../hyper_contemp_ii.html"> Hyper-Contemporary Act ii </a></li>
+    <li><a href = "../return_to_mysticisim.html"> Return to Mysticisim </a></li>
+    <!--li><a href = "../nostalgia_page.html">Nostalgia</a></li-->
+    <li><a href="../hyper_contempp.html">Hyper-Contemporary</a></li>
+    <li><a href="../about.html">About</a></li>
+    <!--li-->
+    <div class = "dropdown"> 
+    <button class = "dropbtn" onmouseover="myFunction()"> Past Shows
+    </button>
+    <div class = 'dropdown-content' id = 'myDropdown'>
+        <a href ="../contemp_surrealism.html">Contemporary Surrealism</a>
+        <a href="../figurations.html">Figurative</a>
+        <a href="../unlined.html">Unlined</a>
+        <a href="../action_reaction.html">Library</a>
+        <a href="../hyper_contempp.html">Hyper-Contemporary</a>
+        <a href="../nft.html">nfts</a>
+    </div>
+    </div>
+    <!--/li-->
+</ul>
+
+<div class="row">
+	<div>
+	<img class="work" src="pedro_troncoso_taking_socks_off.jpg">
+	</div>
+	<div class = "aboutTheWork">
+		<h1 class = "title"> Taking Socks Off </h1>
+    <h2 class = "artistInfoEtc"> Pedro Troncoso </h2>
+        <h4 class = "artistInfoEtc"> Oil, Acrylic on Canvas  </h4>
+		<h4 class = "artistInfoEtc"> 48 x 40 in </h4>
+		<p2 class = "artistBio">My work consists of self-portraits or imagined alter egos inhabiting dark intimate interior spaces. Like my
+      room, where I overthink the external social pressures such as acceptance, gender roles, and self-image.
+      Through the manipulation of the figure, I construct magical ironic, and contradictory scenarios reflecting
+      discomfort and joy in adulthood. Reminding me how our identity is distorted and threatened by societal
+      pressures. By using imagination, the only playable toy remaining in adulthood, I reflect on psychological
+      individuality and the personal-social dilemma: what does it even mean to be our ‘real selves’ in present
+      times? </p2>
+        <div class="paylink"><a href="mailto:hasbrookgalleries@gmail.com">contact for purchase</a></div>
+</div>
+</div>
+</html>
+
+
+<script>
+    function myFunction() {
+      document.getElementById("myDropdown").classList.toggle("show");
+    }
+
+    window.onmouseover = function(e) {
+      if (!e.target.matches('.dropbtn') && !e.target.matches('.dropdown-content a')) {
+      var myDropdown = document.getElementById("myDropdown");
+        if (myDropdown.classList.contains('show')) {
+          myDropdown.classList.remove('show');
+        }
+      }
+    }
+</script>

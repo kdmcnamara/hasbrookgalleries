@@ -1,0 +1,465 @@
+<!DOCTYPE html>
+<html>
+<head>
+<link href="https://fonts.googleapis.com/css?family=Kodchasan" rel="stylesheet">
+<style>
+	
+a {
+	color: black;
+}
+
+h1 {
+	font-family: "Kodchasan";
+	}
+h1 a {
+	margin: 20px;
+	color: black;
+	text-decoration: none;
+	}
+h1 a:hover{
+	color: cornflowerblue;
+	}
+
+.nav1 {
+	list-style-type: none;
+	text-align: center;
+	margin: 0;
+	padding: 12px;
+	height: 30px;
+	position: fixed;
+	top: 15px;
+	right: 0px;
+}
+
+.nav1 li {
+	display: inline-block;
+	font-size: 12px;
+	padding: 5px;
+	text-decoration: none;
+	font-family: "Kodchasan";
+	color: red;
+	}
+
+.nav1 a:link {
+	text-decoration: none;
+	font-family: "Kodchasan";
+	}
+
+.nav1 a:hover {
+	color: rgb(20, 255, 11);
+	text-decoration: none;
+	font-family: "Kodchasan";
+}
+
+.dropdown {
+
+    float: left;
+    overflow: hidden;
+	list-style-type: none;
+	text-align: center;
+	height: 30px;
+	top: 39px;
+	padding: 3px;
+	
+}
+
+.dropdown .dropbtn {	
+    text-decoration: none;
+	font-family: "Kodchasan";
+    cursor: pointer;
+    border: none;
+    outline: none;
+    margin: 0;
+	background-color:transparent;	
+	font-size: 12px;
+	text-align: center;
+}
+
+.dropdown-content {
+	font-size: 12px;
+    display: none; 
+    position: absolute; 
+    background-color:rgb(20, 255, 11);
+}
+
+.dropdown-content a {
+    float: none;
+    color: black;
+    text-decoration: none;
+    display: block;
+	top: 15px;
+}
+
+.show {
+    display: block;
+}
+
+.row {
+	display: flex;
+	padding: 12px;
+	}
+
+.column {
+	flex: 25%;
+	/*padding: 12px;*/
+	padding: 24px;
+	}
+
+.blurb {
+	font-family: "Kodchasan";
+	font-size: 15px;
+	text-align: center;
+	margin-top: 50px;
+	margin-bottom: 15px;
+	margin-left: 500px;
+	margin-right: 500px;
+	color: crimson;
+	background: coral;
+	padding:12px;
+}
+
+img {
+	height: auto;
+	width: 100%;
+	}
+
+.name {
+	color: purple;
+	font-size: 12px;
+	padding: 3px;
+	text-align: center;
+	font-family: "Kodchasan";
+	}
+.name a:link {
+	font-family: "Kodchasan";
+	font-size: 20px;
+	color: black;
+	text-decoration: none;
+	}
+.name a:hover {
+	font-family: "Kodchasan";
+	color: purple;
+	text-decoration: none;
+	}
+
+</style>
+</head>
+
+
+<h1> <a href="med.html"> HASBROOK GALLERIES </a></h1>
+<ul class="nav1">
+	<li><a href = "hyper_contemp_ii.html"> Hyper-Contemporary Act ii </a></li>
+	<li><a href = "return_to_mysticisim.html">Return to Mysticisim</a></li>
+    <li><a href="hyper_contempp.html">Hyper-Contemporary</a></li>
+	<li><a href="about.html">About</a></li>
+    <!--li-->
+    <div class = "dropdown"> 
+    <button class = "dropbtn" onmouseover="myFunction()"> Past Shows
+    </button>
+    <div class = 'dropdown-content' id = 'myDropdown'>
+        <a href ="contemp_surrealism.html">Contemporary Surrealism</a>
+        <a href="figurations.html">Figurative</a>
+        <a href="unlined.html">Unlined</a>
+        <a href="action_reaction.html">Library</a>
+        <a href="hyper_contempp.html">Hyper-Contemporary</a>
+        <a href="nft.html">nfts</a>
+    </div>
+    </div>
+    <!--/li-->
+</ul>
+
+<div><h1
+	style="padding: 20px; margin-bottom: 0px; text-align: center">
+	<a href="virtual_gallery/index.html">:: Return to Mysticism ::</a></h1></div>
+<div class = "row">
+	<div class="column">
+		<a href="mystic/the_deposition_Kieran_Valde.html">
+		<img src="mystic/the_deposition_Kieran_Valde.jpg"></a>
+		<div class="name"> <a href="mystic/the_deposition_Kieran_Valde.html"> The Deposition </a></div>
+		<div class="name"> Kieran Valde </div>
+		<div class="name"> Oil on Canvas </div>
+		<div class="name"> 20 x 20 in </div>
+	</div>
+	<div class="column">
+		<a href="mystic/its_raining_scissors_Attilio_Espostio.html">
+		<img src="mystic/its_raining_scissors_Attilio_Espostio.jpeg"></a>
+		<div class="name"><a href="mystic/its_raining_scissors_Attilio_Espostio.html">It's Raining Scissors</a></div>
+		<div class="name"> Attilio Esposito </div>
+		<div class="name"> Oil on Canvas </div>
+		<div class="name"> 100 x 65 in </div>
+	</div>
+</div>
+
+<div class = "row">
+	<div class="column">
+		<a href="mystic/Earman 3_Peter_McRury.html">
+		<img src="mystic/Earman 3_Peter_McRury.jpg"></a>
+		<div class="name"> <a href="mystic/Earman 3_Peter_McRury.html"> Earman 3 </a></div>
+		<div class="name"> Peter McRury </div>
+		<div class="name"> Acrylic on Canvas </div>
+		<div class="name"> 28 x 20 in </div>
+	</div>
+    <div class="column">
+		<a href="mystic/Floating_Peter_McRury.html">
+		<img src="mystic/Floating_Peter_McRury.jpg"></a>
+		<div class="name"><a href="mystic/Floating_Peter_McRury.html"> Floating </a></div>
+		<div class="name"> Peter McRury </div>
+		<div class="name"> Acrylic on Canvas </div>
+		<div class="name"> 30 x 40 in </div>
+	</div>
+    <div class="column">
+		<a href="mystic/Pondhead_Peter_McRury.html">
+		<img src="mystic/Pondhead_Peter_McRury.jpg"></a>
+		<div class="name"><a href="mystic/Pondhead_Peter_McRury.html"> Pondhead </a></div>
+		<div class="name"> Peter McRury </div>
+		<div class="name"> Acrylic on Canvas </div>
+		<div class="name"> 30 x 24 in </div>
+	</div>
+</div>
+
+<div class = "row">
+	<div class="column">
+		<a href="mystic/steel_is_real_jack_shure.html">
+		<img src="mystic/steel_is_real_jack_shure.jpg"></a>
+		<div class="name"> <a href="steel_is_real_jack_shure.html"> Steel is Real </a></div>
+		<div class="name"> Jack Shure </div>
+		<div class="name"> Oil on Linen Mounted to Panel </div>
+		<div class="name"> 12 x 12 in </div>
+	</div>
+	<div class="column">
+		<a href="mystic/stop_blaming_death_jack_shure.html">
+		<img src="mystic/stop_blaming_death_jack_shure.jpg"></a>
+		<div class="name"> <a href="mystic/stop_blaming_death_jack_shure.html"> Stop Blaming Death </a></div>
+		<div class="name"> Jack Shure </div>
+		<div class="name"> Oil on Linen Mounted to Birch Panel </div>
+		<div class="name"> 20 x 20 in </div>
+	</div>
+</div>
+
+<div class = "row">
+    <div class="column">
+		<a href="mystic/La_Catin_Camille_Theodet.html">
+		<img src="mystic/La_Catin_Camille_Theodet.jpg"></a>
+		<div class="name"><a href="mystic/La_Catin_Camille_Theodet.html"> La Catin </a></div>
+		<div class="name"> Camille Theodet </div>
+		<div class="name"> Acrylic on Canvas </div>
+		<div class="name"> 70 x 50 cm </div>
+	</div>
+	<div class="column">
+		<a href="mystic/La_Garce_Camille_Theodet.html">
+		<img src="mystic/La_Garce_Camille_Theodet.jpg"></a>
+		<div class="name"><a href="mystic/La_Garce_Camille_Theodet.html">La Garce</a></div>
+		<div class="name"> Camille Theodet </div>
+		<div class="name"> Acrylic on Canvas </div>
+		<div class="name"> 70 x 50 cm </div>
+	</div>
+</div>
+
+<div class = "row">
+	<div class="column">
+		<a href="mystic/I_Want_to_Last_Alemendra_Bertoni.html">
+		<img src="mystic/I_Want_to_Last_Alemendra_Bertoni.png"></a>
+		<div class="name"><a href="mystic/I_Want_to_Last_Alemendra_Bertoni.html">I Want to Last</a></div>
+		<div class="name"> Alemendra Bertoni </div>
+		<div class="name"> Acrylic on Carved Wood</div>
+		<div class="name"> 48 x 24 in </div>
+	</div>
+    <div class="column">
+        <a href="mystic/At Night They Shapeshift - Estée Preda.html">
+        <img src="mystic/At Night They Shapeshift - Estée Preda.jpg"></a>
+        <div class="name"> <a href="mystic/At Night They Shapeshift - Estée Preda.html"> At Night They Shapeshift </a></div>
+        <div class="name"> Estée Preda </div>
+        <div class="name"> Gouache on Paper </div>
+        <div class="name"> 6.5 x 9 in </div>
+    </div>
+    <div class="column">
+		<a href="mystic/Don't Carry The World On Your Shoulders Estee Preda.html">
+		<img src="mystic/Don't Carry The World On Your Shoulders Estee Preda.jpg"></a>
+		<div class="name"><a href="mystic/Don't Carry The World On Your Shoulders Estee Preda.html"> Don't Carry the World on Your Shoulders </a></div>
+		<div class="name"> Estée Preda </div>
+		<div class="name"> Oil on Canvas</div>
+		<div class="name"> 9 x 9 in </div>
+	</div>
+</div>
+
+<div class = "row"
+	style="width: 40%; height: 40%;
+		margin-left: auto; margin-right: auto">
+	<div class="column">
+		<a href="mystic/04_Rosalind_Rosabel_SinlessSpuds copy.html">
+		<img src="mystic/04_Rosalind_Rosabel_SinlessSpuds copy.jpg"></a>
+		<div class="name"> <a href="mystic/04_Rosalind_Rosabel_SinlessSpuds copy.html"> Self Portrait as Sinless Spuds </a></div>
+		<div class="name"> Rosabel Rosalind </div>
+		<div class="name"> Acrylic on Canvas </div>
+		<div class="name"> 30 x 22 in </div>
+	</div>
+</div>
+
+<div class = "row">
+	<div class="column">
+		<a href="mystic/the_walled_city_Juan_dela_Rica.html">
+		<img src="mystic/the_walled_city_Juan_dela_Rica.jpeg"></a>
+		<div class="name"><a href="mystic/the_walled_city_Juan_dela_Rica.html">The Walled City</a></div>
+		<div class="name"> Juan de la Rica </div>
+		<div class="name"> Oil on Canvas</div>
+		<div class="name"> 30 x 30 cm </div>
+	</div>
+	<div class="column">
+		<a href="mystic/seagulls_Juan_dela_Rica.html">
+		<img src="mystic/seagulls_Juan_dela_Rica.jpeg"></a>
+		<div class="name"><a href="mystic/seagulls_Juan_dela_Rica.html">Seagulls</a></div>
+		<div class="name"> Juan de la Rica </div>
+		<div class="name"> Oil on Canvas </div>
+		<div class="name"> 30 x 30 cm </div>
+	</div>
+	<div class="column">
+		<a href="mystic/small_wooden_fruit_bowl_Juan_dela_Rica.html">
+		<img src="mystic/small_wooden_fruit_bowl_Juan_dela_Rica.jpeg"></a>
+		<div class="name"><a href="mystic/small_wooden_fruit_bowl_Juan_dela_Rica.html">Small Wooden Fruit Bowl</a></div>
+		<div class="name"> Juan de la Rica </div>
+		<div class="name"> Oil on Canvas </div>
+		<div class="name"> 30 x 30 cm </div>
+	</div>
+</div>
+
+<div class = "row"
+	style="width: 70%; height: 70%;
+		margin-left: auto; margin-right: auto">
+	<div class="column">
+		<a href="mystic/cryptic_resonance_jack_shure.html">
+		<img src="mystic/cryptic_resonance_jack_shure.jpg"></a>
+		<div class="name"> <a href="mystic/cryptic_resonance_jack_shure.html"> Cryptic Resonance </a></div>
+		<div class="name"> Jack Shure </div>
+		<div class="name"> Oil and Animal Protien Emulsion on Birch Panel </div>
+		<div class="name"> 20 x 48 in </div>
+	</div>
+</div>
+
+<div class = "row">
+	<div class="column">
+		<a href="mystic/abandoned_anthill_copy_josiah_ellner.html">
+		<img src="mystic/abandoned_anthill_copy_josiah_ellner.jpg"></a>
+		<div class="name"> <a href="mystic/abandoned_anthill_copy_josiah_ellner.html"> Abandoned Anthill </a></div>
+		<div class="name"> Josiah Ellner </div>
+		<div class="name"> Oil Paint, Molding Paste, Sand and Oil Pastel </div>
+		<div class="name"> 30 x 40 in </div>
+	</div>
+	<div class="column">
+		<a href="mystic/every_blue_moon_try_something_new_josiah_ellner.html">
+		<img src="mystic/every_blue_moon_try_something_new_josiah_ellner.jpg"></a>
+		<div class="name"><a href="mystic/every_blue_moon_try_something_new_josiah_ellner.html"> Every Blue Moon Try Something New </a></div>
+		<div class="name"> Josiah Ellner </div>
+		<div class="name"> Colored Pencil and Ink </div>
+		<div class="name"> 12 x 9 in </div>
+	</div>
+	<div class="column">
+		<a href="mystic/cats_cradle_with_a_vine_josiah_ellner.html">
+		<img src="mystic/cats_cradle_with_a_vine_josiah_ellner.jpg"></a>
+		<div class="name"><a href="mystic/cats_cradle_with_a_vine_josiah_ellner.html">Cat's Cradel with a Vine</a></div>
+		<div class="name"> Josiah Ellner </div>
+		<div class="name"> Colored Pencil and Ink </div>
+		<div class="name"> 9 x 12 in </div>
+	</div>
+</div>
+
+<div class = "row">
+	<div class="column">
+		<a href="mystic/Asphalt_Daisy_Rachel_Hayden.html">
+		<img src="mystic/Asphalt_Daisy_Rachel_Hayden.jpg"></a>
+		<div class="name"> <a href="mystic/Asphalt_Daisy_Rachel_Hayden.html"> Asphalt Daisy </a></div>
+		<div class="name"> Rachel Hayden </div>
+		<div class="name"> Acrylic on Panel </div>
+		<div class="name"> 16 x 12 in </div>
+	</div>
+	<div class="column">
+		<a href="mystic/Lawn_Moth_Rachel_Hayden.html">
+		<img src="mystic/Lawn_Moth_Rachel_Hayden.jpg"></a>
+		<div class="name"><a href="mystic/Lawn_Moth_Rachel_Hayden.html">Lawn Moth</a></div>
+		<div class="name"> Rachel Hayden </div>
+		<div class="name"> Acrylic on Panel </div>
+		<div class="name"> 20 x 16 in </div>
+	</div>
+	<div class="column">
+		<a href="mystic/Four_Thorny_Red_Roses_Rachel_Hayden.html">
+		<img src="mystic/Four_Thorny_Red_Roses_Rachel_Hayden.jpg"></a>
+		<div class="name"><a href="mystic/Four_Thorny_Red_Roses_Rachel_Hayden.html"> Four Thorny Red Roses </a></div>
+		<div class="name"> Rachel Hayden </div>
+		<div class="name"> Acrylic on Panel, Framed </div>
+		<div class="name"> 16 x 12 in </div>
+	</div>
+</div>
+
+<div class = "row">
+	<div class="column">
+		<a href="mystic/Ancestral_Waters_Kimia_Amini.html">
+		<img src="mystic/Ancestral_Waters_Kimia_Amini.jpeg"></a>
+		<div class="name"> <a href="mystic/Ancestral_Waters_Kimia_Amini.html"> Ancestral Waters </a></div>
+		<div class="name"> Kimia Amini </div>
+		<div class="name"> Acrylic on Canvas </div>
+		<div class="name"> 70 x 80 cm </div>
+	</div>
+	<div class="column">
+		<a href="mystic/Succubus no.10x_Aron_Lorincz.html">
+		<img src="mystic/Succubus no.10x_Aron_Lorincz.jpg"></a>
+		<div class="name"> <a href="mystic/Succubus no.10x_Aron_Lorincz.html"> Succubus no.10x </a></div>
+		<div class="name"> Áron Lőrincz </div>
+		<div class="name"> Wood, Mixed Media </div>
+		<div class="name"> 250 x 105 cm </div>
+	</div>
+	<div class="column">
+		<a href="mystic/One_Who_Seeks_The_Truth_Kimia_Amini.html">
+		<img src="mystic/One_Who_Seeks_The_Truth_Kimia_Amini.jpeg"></a>
+		<div class="name"> <a href="mystic/One_Who_Seeks_The_Truth_Kimia_Amini.html"> One Who Seeks the Truth </a></div>
+		<div class="name"> Kimia Amini </div>
+		<div class="name"> Acrylic and Oil on Canvas </div>
+		<div class="name"> 180 x 100 cm </div>
+	</div>
+</div>
+
+<div class = "row">
+	<div class="column">
+		<a href="mystic/applebees_vyczie_dorado.html">
+		<img src="mystic/applebees_vyczie_dorado.jpg"></a>
+		<div class="name"> <a href="mystic/applebees_vyczie_dorado.html"> Applebees </a></div>
+		<div class="name"> Vyczie Dorado </div>
+		<div class="name"> Mixed Media on Canvas </div>
+		<div class="name"> 43 x 43 in </div>
+	</div>	
+	<div class="column">
+		<a href="mystic/atlas_vyczie_dorado.html">
+		<img src="mystic/atlas_vyczie_dorado.jpg"></a>
+		<div class="name"> <a href="mystic/atlas_vyczie_dorado.html"> Atlas </a></div>
+		<div class="name"> Vyczie Dorado </div>
+		<div class="name"> Oil Stick, Fabric, Colored Pencil, and Graphite on Paper </div>
+		<div class="name"> 34 x 38 in </div>
+	</div>
+	<div class="column">
+		<a href="mystic/lady_bug_bite_vyczie_dorado.html">
+		<img src="mystic/lady_bug_bite_vyczie_dorado.jpg"></a>
+		<div class="name"> <a href="mystic/applebees_vyczie_dorado.html"> Lady Bug Bite </a></div>
+		<div class="name"> Vyczie Dorado </div>
+		<div class="name"> Acrylic, Pastel, Graphite, Colored Pencil and Felt on Canvas </div>
+		<div class="name"> 47 x 47 in </div>
+	</div>	
+
+</div>
+
+
+
+
+<script>
+    function myFunction() {
+      document.getElementById("myDropdown").classList.toggle("show");
+    }
+
+    window.onmouseover = function(e) {
+      if (!e.target.matches('.dropbtn') && !e.target.matches('.dropdown-content a')) {
+      var myDropdown = document.getElementById("myDropdown");
+        if (myDropdown.classList.contains('show')) {
+          myDropdown.classList.remove('show');
+        }
+      }
+    }
+    </script>
+
+</html>

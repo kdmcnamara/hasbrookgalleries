@@ -1,0 +1,62 @@
+<!DOCTYPE html>
+<html>
+<head>
+  <link rel = "stylesheet" type="text/css" href = "../hasbrook_pages_formatting.css">
+  <link href="https://fonts.googleapis.com/css?family=Kodchasan" rel="stylesheet">
+</head>
+
+<h1> <a href="../return_to_mysticisim.html"> HASBROOK GALLERIES </h1>
+
+<ul class="nav1">
+    <li><a href = "../return_to_mysticisim.html"> Return to Mysticisim </a></li>
+    <!--li><a href = "../nostalgia_page.html">Nostalgia</a></li-->
+    <li><a href="../hyper_contempp.html">Hyper-Contemporary</a></li>
+    <li><a href="../about.html">About</a></li>
+    <!--li-->
+    <div class = "dropdown"> 
+    <button class = "dropbtn" onmouseover="myFunction()"> Past Shows
+    </button>
+    <div class = 'dropdown-content' id = 'myDropdown'>
+        <a href ="../contemp_surrealism.html">Contemporary Surrealism</a>
+        <a href="../figurations.html">Figurative</a>
+        <a href="../unlined.html">Unlined</a>
+        <a href="../action_reaction.html">Library</a>
+        <a href="../hyper_contempp.html">Hyper-Contemporary</a>
+        <a href="../nft.html">nfts</a>
+    </div>
+    </div>
+    <!--/li-->
+</ul>
+
+<div class="row">
+	<div>
+	<img class="work" src="its_raining_scissors_Attilio_Espostio.jpeg">
+	</div>
+	<div class = "aboutTheWork">
+		<h1 class = "title"> It's Raining Scissors </h1>
+    <h2 class = "artistInfoEtc"> Attilo Esposito </h2>
+        <h4 class = "artistInfoEtc"> Oil on Canvas </h4>
+		<h4 class = "artistInfoEtc"> 100 x 65 in </h4>
+		<p2 class = "artistBio"> “I create indefinite shapes with plasticine, take photos and then group them digitally in aesthetically pleasing compositions before bringing it to canvas. My work does not have a meaningful objective reading, as today, I find interest in the process by which images are compiled. In general, everything only receives a true meaning only through the observer.
+            My titles are then my personal interaction with the image.”            
+        </p2>
+        <div class="paylink"><a href="mailto:hasbrookgalleries@gmail.com">contact for purchase</a></div>
+</div>
+</div>
+</html>
+
+
+<script>
+    function myFunction() {
+      document.getElementById("myDropdown").classList.toggle("show");
+    }
+
+    window.onmouseover = function(e) {
+      if (!e.target.matches('.dropbtn') && !e.target.matches('.dropdown-content a')) {
+      var myDropdown = document.getElementById("myDropdown");
+        if (myDropdown.classList.contains('show')) {
+          myDropdown.classList.remove('show');
+        }
+      }
+    }
+</script>

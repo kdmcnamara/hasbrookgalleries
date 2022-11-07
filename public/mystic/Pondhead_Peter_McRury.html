@@ -1,0 +1,66 @@
+<!DOCTYPE html>
+<html>
+<head>
+  <link rel = "stylesheet" type="text/css" href = "../hasbrook_pages_formatting.css">
+  <link href="https://fonts.googleapis.com/css?family=Kodchasan" rel="stylesheet">
+</head>
+
+<h1> <a href="../return_to_mysticisim.html"> HASBROOK GALLERIES </h1>
+
+<ul class="nav1">
+    <li><a href = "../return_to_mysticisim.html"> Return to Mysticisim </a></li>
+    <!--li><a href = "../nostalgia_page.html">Nostalgia</a></li-->
+    <li><a href="../hyper_contempp.html">Hyper-Contemporary</a></li>
+    <li><a href="../about.html">About</a></li>
+    <!--li-->
+    <div class = "dropdown"> 
+    <button class = "dropbtn" onmouseover="myFunction()"> Past Shows
+    </button>
+    <div class = 'dropdown-content' id = 'myDropdown'>
+        <a href ="../contemp_surrealism.html">Contemporary Surrealism</a>
+        <a href="../figurations.html">Figurative</a>
+        <a href="../unlined.html">Unlined</a>
+        <a href="../action_reaction.html">Library</a>
+        <a href="../hyper_contempp.html">Hyper-Contemporary</a>
+        <a href="../nft.html">nfts</a>
+    </div>
+    </div>
+    <!--/li-->
+</ul>
+
+<div class="row">
+	<div>
+	<img class="work" src="Pondhead_Peter_McRury.jpg">
+	</div>
+	<div class = "aboutTheWork">
+		<h1 class = "title"> Pondhead </h1>
+    <h2 class = "artistInfoEtc"> Peter McRury </h2>
+		<h4 class = "artistInfoEtc"> Acrylic on Canvas </h3>
+		<h4 class = "artistInfoEtc"> 30 x 24 in </h4>
+		<p2 class = "artistBio"> About the Work :: “The paintings, when viewed in sequence, share a common feeling of psychological force because of their shared features, and the features that thread them together blur who’s who, giving them all a strange sort of collective identity.
+
+            When I paint I’m usually working towards something visually quiet, focused, and compositionally minimal rather than towards a scene or a narrative. I’m primarily interested in exploring new ways to represent the figure (mostly the face) with the assistance of digital tools.
+            
+            The time I spend creating my work is evenly split between the act of painting itself, mainly with an airbrush, and an iterative process of photographing works-in-progress and using photoshop to layer the photographs with elements of previous works in order to create new reference material. With this as the groundwork of my practice, I can never visualize how my paintings will turn out when I start working, but they often retain elements of my previous works as they evolve in a self-referential cycle.”
+            
+             </p2>
+	  <div class="paylink"><a href="mailto:hasbrookgalleries@gmail.com">contact for purchase</a></div>
+</div>
+</div>
+</html>
+
+
+<script>
+    function myFunction() {
+      document.getElementById("myDropdown").classList.toggle("show");
+    }
+
+    window.onmouseover = function(e) {
+      if (!e.target.matches('.dropbtn') && !e.target.matches('.dropdown-content a')) {
+      var myDropdown = document.getElementById("myDropdown");
+        if (myDropdown.classList.contains('show')) {
+          myDropdown.classList.remove('show');
+        }
+      }
+    }
+</script>

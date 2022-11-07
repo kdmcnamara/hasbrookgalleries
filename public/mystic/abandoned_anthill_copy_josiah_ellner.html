@@ -1,0 +1,61 @@
+<!DOCTYPE html>
+<html>
+<head>
+  <link rel = "stylesheet" type="text/css" href = "../hasbrook_pages_formatting.css">
+  <link href="https://fonts.googleapis.com/css?family=Kodchasan" rel="stylesheet">
+</head>
+
+<h1> <a href="../return_to_mysticisim.html"> HASBROOK GALLERIES </h1>
+
+<ul class="nav1">
+    <li><a href = "../return_to_mysticisim.html"> Return to Mysticisim </a></li>
+    <!--li><a href = "../nostalgia_page.html">Nostalgia</a></li-->
+    <li><a href="../hyper_contempp.html">Hyper-Contemporary</a></li>
+    <li><a href="../about.html">About</a></li>
+    <!--li-->
+    <div class = "dropdown"> 
+    <button class = "dropbtn" onmouseover="myFunction()"> Past Shows
+    </button>
+    <div class = 'dropdown-content' id = 'myDropdown'>
+        <a href ="../contemp_surrealism.html">Contemporary Surrealism</a>
+        <a href="../figurations.html">Figurative</a>
+        <a href="../unlined.html">Unlined</a>
+        <a href="../action_reaction.html">Library</a>
+        <a href="../hyper_contempp.html">Hyper-Contemporary</a>
+        <a href="../nft.html">nfts</a>
+    </div>
+    </div>
+    <!--/li-->
+</ul>
+
+<div class="row">
+	<div>
+	<img class="work" src="abandoned_anthill_copy_josiah_ellner.jpg">
+	</div>
+	<div class = "aboutTheWork">
+		<h1 class = "title"> Abandoned Anthill </h1>
+    <h2 class = "artistInfoEtc"> Josiah Ellner </h2>
+		<h4 class = "artistInfoEtc"> Oil Paint, Molding Paste, Sand and Oil Pastel </h3>
+		<h4 class = "artistInfoEtc"> 30 x 40 in </h4>
+		<p2 class = "artistBio"> About the Work :: “Translations of moments of connection between people and nature, captured through the lense of a digital native. My paintings are narratives that revolve around the tumultuous relationship between humanity and the natural world. I am drawn to moments that embody the feeling of oneness with nature. The formal decisions I make in my work are all informed by the characteristics of these moments which tend toward the awkward, whimsical, playful and sometimes slightly humorous. This results in ungainly and awkward figures and environments that are patterned and playful. Through these abstractions I strive to achieve a heightened narrative that encapsulates the connections and the concealed discomfort we have with the natural world.”
+             </p2>
+	  <div class="paylink"><a href="mailto:hasbrookgalleries@gmail.com">contact for purchase</a></div>
+</div>
+</div>
+</html>
+
+
+<script>
+    function myFunction() {
+      document.getElementById("myDropdown").classList.toggle("show");
+    }
+
+    window.onmouseover = function(e) {
+      if (!e.target.matches('.dropbtn') && !e.target.matches('.dropdown-content a')) {
+      var myDropdown = document.getElementById("myDropdown");
+        if (myDropdown.classList.contains('show')) {
+          myDropdown.classList.remove('show');
+        }
+      }
+    }
+</script>

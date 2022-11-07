@@ -1,0 +1,335 @@
+<!DOCTYPE html>
+<html>
+<head>
+<link href="https://fonts.googleapis.com/css?family=Kodchasan" rel="stylesheet">
+<style>
+	
+a {
+	color: black;
+}
+
+h1 {
+	font-family: "Kodchasan";
+	}
+h1 a {
+	margin: 20px;
+	color: black;
+	text-decoration: none;
+	}
+h1 a:hover{
+	color: cornflowerblue;
+	}
+
+.nav1 {
+	list-style-type: none;
+	text-align: center;
+	margin: 0;
+	padding: 12px;
+	height: 30px;
+	position: fixed;
+	top: 15px;
+	right: 0px;
+}
+
+.nav1 li {
+	display: inline-block;
+	font-size: 12px;
+	padding: 5px;
+	text-decoration: none;
+	font-family: "Kodchasan";
+	color: red;
+	}
+
+.nav1 a:link {
+	text-decoration: none;
+	font-family: "Kodchasan";
+	}
+
+.nav1 a:hover {
+	color: rgb(20, 255, 11);
+	text-decoration: none;
+	font-family: "Kodchasan";
+}
+
+.dropdown {
+
+float: left;
+overflow: hidden;
+list-style-type: none;
+text-align: center;
+height: 30px;
+top: 39px;
+padding: 3px;
+
+}
+
+.dropdown .dropbtn {	
+text-decoration: none;
+font-family: "Kodchasan";
+cursor: pointer;
+border: none;
+outline: none;
+margin: 0;
+background-color:transparent;	
+font-size: 12px;
+text-align: center;
+}
+
+.dropdown-content {
+font-size: 12px;
+display: none; 
+position: absolute; 
+background-color:rgb(20, 255, 11);
+}
+
+.dropdown-content a {
+float: none;
+color: black;
+text-decoration: none;
+display: block;
+top: 15px;
+}
+
+.show {
+display: block;
+}
+
+.row {
+	display: flex;
+	padding: 12px;
+	}
+
+.column {
+	flex: 25%;
+	/*padding: 12px;*/
+	padding: 24px;
+	}
+
+.blurb {
+	font-family: "Kodchasan";
+	font-size: 15px;
+	text-align: center;
+	margin-top: 50px;
+	margin-bottom: 15px;
+	margin-left: 500px;
+	margin-right: 500px;
+	color: crimson;
+	background: coral;
+	padding:12px;
+}
+
+img {
+	height: auto;
+	width: 100%;
+	}
+
+.name {
+	color: purple;
+	font-size: 12px;
+	padding: 3px;
+	text-align: center;
+	font-family: "Kodchasan";
+	}
+.name a:link {
+	font-family: "Kodchasan";
+	font-size: 20px;
+	color: black;
+	text-decoration: none;
+	}
+.name a:hover {
+	font-family: "Kodchasan";
+	color: purple;
+	text-decoration: none;
+	}
+
+</style>
+</head>
+
+
+<h1> <a href="med.html"> HASBROOK GALLERIES </a></h1>
+
+<ul class="nav1">
+	<li><a href = "hyper_contemp_act_ii.html"> Hyper-Contemporary Act ii </a></li>
+	<li><a href = "return_to_mysticisim.html">Return to Mysticisim</a></li>
+    <li><a href="hyper_contempp.html">Hyper-Contemporary</a></li>
+	<li><a href="about.html">About</a></li>
+    <!--li-->
+    <div class = "dropdown"> 
+    <button class = "dropbtn" onmouseover="myFunction()"> Past Shows
+    </button>
+    <div class = 'dropdown-content' id = 'myDropdown'>
+        <a href ="contemp_surrealism.html">Contemporary Surrealism</a>
+        <a href="figurations.html">Figurative</a>
+        <a href="unlined.html">Unlined</a>
+        <a href="action_reaction.html">Library</a>
+        <a href="hyper_contempp.html">Hyper-Contemporary</a>
+        <a href="nft.html">nfts</a>
+    </div>
+    </div>
+    <!--/li-->
+</ul>
+
+
+<div class = "row">
+	<div class="column">
+		<a href="hyper_contemp_act_ii/matt_belk_tigerr.html">
+		<img src="hyper_contemp_act_ii/matt_belk_tigerr.jpg"></a>
+		<div class="name"> <a href="hyper_contemp_act_ii/matt_belk_tigerr.html"> Tigerr </a></div>
+		<div class="name"> Matt Belk </div>
+		<div class="name"> Acrylic Airbrush and Pencil on Paper </div>
+		<div class="name"> 24 x 36 in </div>
+	</div>
+	<div class="column">
+		<a href="hyper_contemp_act_ii/matt_belk_thunder_dog.html">
+		<img src="hyper_contemp_act_ii/matt_belk_thunder_dog.jpg"></a>
+		<div class="name"><a href="hyper_contemp_act_ii/matt_belk_thunder_dog.html">Thunder Dog</a></div>
+		<div class="name"> Matt Belk </div>
+		<div class="name"> Acrylic Airbrush and Pencil on Paper </div>
+		<div class="name"> 28 x 32 in </div>
+	</div>
+	<div class="column", 
+		style = "margin-top: auto;">
+		<a href="hyper_contemp_act_ii/matt_belk_tigerrr.html">
+		<img src="hyper_contemp_act_ii/matt_belk_tigerrr.jpg"></a>
+		<div class="name"><a href="hyper_contemp_act_ii/matt_belk_tigerrr.html"> Tigerrr </a></div>
+		<div class="name"> Maatt Belk </div>
+		<div class="name"> Acrylic Airbrush and Pencil on Paper </div>
+		<div class="name"> 24 x 26 in </div>
+	</div>
+</div>
+
+<div class = "row"
+	style="width: 60%; height: 60%;
+		margin-left: auto; margin-right: auto">
+	<div class="column">
+		<a href="hyper_contemp_act_ii/emily_blair_quinn_cherubs_heaven.html">
+		<img src="hyper_contemp_act_ii/emily blair quinn_cherubs_heaven.jpg"></a>
+		<div class="name"> <a href="hyper_contemp_act_ii/emily_blair_quinn_cherubs_heaven.html"> Cherub's Heaven </a></div>
+		<div class="name"> Emily Blair Quinn </div>
+		<div class="name"> Oil on Canvas </div>
+		<div class="name"> 12 x 24 in </div>
+	</div>
+</div>
+
+<div class = "row"
+	style = "width: 85%; height: auto; margin-left: auto; margin-right:auto">
+	<div class="column"
+		style = "margin-top: auto; margin-bottom: auto; margin-right: 0%">
+		<a href="hyper_contemp_act_ii/emily_blair_quinn_dutch_oven.html">
+		<img src="hyper_contemp_act_ii/emily_blair_quinn_dutch_oven.jpg"></a>
+		<div class="name"> <a href="hyper_contemp_act_ii/emily_blair_quinn_dutch_oven.html"> Dutch Oven </a></div>
+		<div class="name"> Emily Blair Quinn </div>
+		<div class="name"> Oil on Canvas </div>
+		<div class="name"> 39 x 29.5</div>
+	</div>
+	<div class = "column"></div>
+	<div class="column">
+		<a href="hyper_contemp_act_ii/emily_blair_quinn_glass_at_room_temperature.html">
+		<img src="hyper_contemp_act_ii/emily_blair_quinn_glass_at_room_temperature.jpg"></a>
+		<div class="name"><a href="hyper_contemp_act_ii/emily_blair_quinn_glass_at_room_temperature.html">Glass at Room Temperature</a></div>
+		<div class="name"> Emily Blair Quinn </div>
+		<div class="name"> Oil on Canvas </div>
+		<div class="name"> 39 x 29.5 in </div>
+	</div>
+</div>
+
+<div class="row"
+	style="width: 45%; height: auto;
+	margin-left: auto; margin-right: auto; margin-bottom: 0px; padding: 0px; display: block">
+	<div class = "column"></div>
+	<div class="column">
+		<a href="hyper_contemp_act_ii/sam_king_unforseen_circumstances.html">
+		<img src="hyper_contemp_act_ii/sam_king_unforseen_circumstances.jpg"></a>
+		<div class="name"> <a href="hyper_contemp_act_ii_sam_king_unforseen_circumstances.html"> Meeting #03 </a></div>
+		<div class="name"> Sam King </div>
+		<div class="name"> Oil on Wood Panel </div>
+		<div class="name"> 40 x 40 cm </div>
+	</div>
+	<div class = "column"></div>
+</div>
+
+<div class = "row">
+	<div class="column">
+		<a href="hyper_contemp_act_ii/neal_vandenbergh_hands_and_eyes_1.html">
+		<img src="hyper_contemp_act_ii/neal_vandenbergh_hands_and_eyes_1.jpg"></a>
+		<div class="name"> <a href="hyper_contemp_act_ii/neal_vandenbergh_hands_and_eyes_1.html"> Hands and Eyes 1</a></div>
+		<div class="name"> Neal Vandenbergh </div>
+		<div class="name"> Graphite, pastel, colored pencil and acrylic on paper </div>
+		<div class="name"> 40 x 30 in </div>
+	</div>
+	<div class="column">
+		<a href="hyper_contemp_act_ii/neal_vandenbergh_hands_and_eyes_3.html">
+		<img src="hyper_contemp_act_ii/neal_vandenbergh_hands_and_eyes_3.jpg"></a>
+		<div class="name"><a href="hyper_contemp_act_ii/neal_vandenbergh_hands_and_eyes_3.html">Hands and Eyes 3</a></div>
+		<div class="name"> Neal Vandenbergh </div>
+		<div class="name"> Graphite, pastel, colored pencil and acrylic on paper </div>
+		<div class="name"> 30 x 22 in </div>
+	</div>
+	<div class="column">
+		<a href="hyper_contemp_act_ii/neal_vandenbergh_hands_and_eyes_7.html">
+		<img src="hyper_contemp_act_ii/neal_vandenbergh_hands_and_eyes_7.jpg"></a>
+		<div class="name"><a href="hyper_contemp_act_ii/neal_vandenbergh_hands_and_eyes_7.html"> Hands and Eyes 7 </a></div>
+		<div class="name"> Neal Vandenbergh </div>
+		<div class="name"> Graphite, pastel, colored pencil and acrylic on paper </div>
+		<div class="name"> 30 x 22 in </div>
+	</div>
+</div>
+
+
+<div class = "row"
+	style = "width: 75%; height: auto; margin-left: auto; margin-right: auto">
+	<div class="column">
+		<a href="hyper_contemp_act_ii/pedro_troncoso_pinata.html">
+		<img src="hyper_contemp_act_ii/pedro_troncoso_pinata.jpg"></a>
+		<div class="name"> <a href="hyper_contemp_act_ii/pedro_troncoso_pinata.html"> Pinata </a></div>
+		<div class="name"> Pedro Troncoso </div>
+		<div class="name"> Oil on Canvas </div>
+		<div class="name"> 48 x 28 in </div>
+	</div>
+	<div class="column">
+		<a href="hyper_contemp_act_ii/pedro_troncoso_taking_socks_off.html">
+		<img src="hyper_contemp_act_ii/pedro_troncoso_taking_socks_off.jpg"></a>
+		<div class="name"><a href="hyper_contemp_act_ii/pedro_troncoso_taking_socks_off.html">Taking Socks Off</a></div>
+		<div class="name"> Pedro Troncoso </div>
+		<div class="name"> Acrylic and Oil on Canvas </div>
+		<div class="name"> 48 x 40 in </div>
+	</div>
+</div>
+
+<div class = "row">
+	<div class="column">
+		<a href="hyper_contemp_act_ii/paula_mans_chain_around_my_neck.html">
+		<img src="hyper_contemp_act_ii/paula_mans_chain_around_my_neck.jpeg"></a>
+		<div class="name"> <a href="hyper_contemp_act_ii/paula_mans_chain_around_my_neck.html"> Chain Around my Neck </a></div>
+		<div class="name"> Paula Mans </div>
+		<div class="name"> Wood Panel </div>
+		<div class="name"> 30 x 30 in </div>
+	</div>
+    <div class="column">
+		<a href="hyper_contemp_act_ii/ben_howe_two_heads.html">
+		<img src="hyper_contemp_act_ii/ben_howe_two_heads.jpg"></a>
+		<div class="name"> <a href="hyper_contemp_act_ii/ben_howe_two_heads.html"> Two Heads </a></div>
+		<div class="name"> Ben Howe </div>
+		<div class="name"> Acrylic and Oil on Canvas </div>
+		<div class="name"> 120 x 100 cm </div>
+	</div>
+</div>
+
+</html>
+
+<script>
+    function myFunction() {
+      document.getElementById("myDropdown").classList.toggle("show");
+    }
+
+    window.onmouseover = function(e) {
+      if (!e.target.matches('.dropbtn') && !e.target.matches('.dropdown-content a')) {
+      var myDropdown = document.getElementById("myDropdown");
+        if (myDropdown.classList.contains('show')) {
+          myDropdown.classList.remove('show');
+        }
+      }
+    }
+    </script>
+
+</html>

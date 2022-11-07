@@ -1,0 +1,63 @@
+<!DOCTYPE html>
+<html>
+<head>
+  <link rel = "stylesheet" type="text/css" href = "../hasbrook_pages_formatting.css">
+  <link href="https://fonts.googleapis.com/css?family=Kodchasan" rel="stylesheet">
+</head>
+
+<h1> <a href="../return_to_mysticisim.html"> HASBROOK GALLERIES </h1>
+
+<ul class="nav1">
+    <li><a href = "../return_to_mysticisim.html"> Return to Mysticisim </a></li>
+    <!--li><a href = "../nostalgia_page.html">Nostalgia</a></li-->
+    <li><a href="../hyper_contempp.html">Hyper-Contemporary</a></li>
+    <li><a href="../about.html">About</a></li>
+    <!--li-->
+    <div class = "dropdown"> 
+    <button class = "dropbtn" onmouseover="myFunction()"> Past Shows
+    </button>
+    <div class = 'dropdown-content' id = 'myDropdown'>
+        <a href ="../contemp_surrealism.html">Contemporary Surrealism</a>
+        <a href="../figurations.html">Figurative</a>
+        <a href="../unlined.html">Unlined</a>
+        <a href="../action_reaction.html">Library</a>
+        <a href="../hyper_contempp.html">Hyper-Contemporary</a>
+        <a href="../nft.html">nfts</a>
+    </div>
+    </div>
+    <!--/li-->
+</ul>
+
+<div class="row">
+	<div>
+	<img class="work" src="seagulls_juan_dela_rica.jpeg">
+	</div>
+	<div class = "aboutTheWork">
+		<h1 class = "title"> Seagulls </h1>
+    <h2 class = "artistInfoEtc"> Juan de la Rica </h2>
+		<h4 class = "artistInfoEtc"> Oil on Canvas </h3>
+		<h4 class = "artistInfoEtc"> 30 x 30 cm </h4>
+		<p2 class = "artistBio"> About the Work :: “When they ask me what type of painting I do, I tend to be very generic; I say that I do figurative painting, no more. I like to deal with all genres, any subject is valid for my painting to develop. Topics that have been dealt with over and over again throughout the history of art, and which are still being dealt with today, generating fascination and being renewed, like a flower or a religious scene.
+            I like to say that the subject is nothing more than a macguffin, to use Hitchcock's language, a plot excuse for the painting to advance. I see it a bit as the paradox of figurative painting: painters are continually looking for interesting subjects, when what is really interesting is the paint itself”
+            
+             </p2>
+	  <div class="paylink"><a href="mailto:hasbrookgalleries@gmail.com">contact for purchase</a></div>
+</div>
+</div>
+</html>
+
+
+<script>
+    function myFunction() {
+      document.getElementById("myDropdown").classList.toggle("show");
+    }
+
+    window.onmouseover = function(e) {
+      if (!e.target.matches('.dropbtn') && !e.target.matches('.dropdown-content a')) {
+      var myDropdown = document.getElementById("myDropdown");
+        if (myDropdown.classList.contains('show')) {
+          myDropdown.classList.remove('show');
+        }
+      }
+    }
+</script>

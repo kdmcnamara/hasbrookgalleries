@@ -1,0 +1,67 @@
+<!DOCTYPE html>
+<html>
+<head>
+  <link rel = "stylesheet" type="text/css" href = "../hasbrook_pages_formatting.css">
+  <link href="https://fonts.googleapis.com/css?family=Kodchasan" rel="stylesheet">
+</head>
+
+<h1> <a href="../return_to_mysticisim.html"> HASBROOK GALLERIES </h1>
+
+<ul class="nav1">
+    <li><a href = "../return_to_mysticisim.html"> Return to Mysticisim </a></li>
+    <!--li><a href = "../nostalgia_page.html">Nostalgia</a></li-->
+    <li><a href="../hyper_contempp.html">Hyper-Contemporary</a></li>
+    <li><a href="../about.html">About</a></li>
+    <!--li-->
+    <div class = "dropdown"> 
+    <button class = "dropbtn" onmouseover="myFunction()"> Past Shows
+    </button>
+    <div class = 'dropdown-content' id = 'myDropdown'>
+        <a href ="../contemp_surrealism.html">Contemporary Surrealism</a>
+        <a href="../figurations.html">Figurative</a>
+        <a href="../unlined.html">Unlined</a>
+        <a href="../action_reaction.html">Library</a>
+        <a href="../hyper_contempp.html">Hyper-Contemporary</a>
+        <a href="../nft.html">nfts</a>
+    </div>
+    </div>
+    <!--/li-->
+</ul>
+
+<div class="row">
+	<div>
+	<img class="work" src="Lawn_Moth_Rachel_Hayden.jpg">
+	</div>
+	<div class = "aboutTheWork">
+		<h1 class = "title"> Lawn Moth </h1>
+    <h2 class = "artistInfoEtc"> Rachel Hayden </h2>
+		<h4 class = "artistInfoEtc"> Acrylic on Panel </h3>
+		<h4 class = "artistInfoEtc"> 20 x 16 in </h4>
+		<p2 class = "artistBio"> About the Work :: “My recent paintings consist of the types of things I used to draw in the margins of my
+      notebooks in middle school. Butterflies, rainbows, shooting stars, caricature self-portraits, fruits
+      and flowers with human faces. The same motif images appear again and again like a cast recurring characters placed in different settings and situations. The process of painting involves intuitive, playful placement of objects, like arranging souvenirs on a shelf. Images are interlocked like pieces in a puzzle. Securely bound within the borders of the rectangular panel, barely-touching bits and pieces appear to float in midair on soft matte backgrounds. I approach painting with both intuition and organization in mind, allowing myself to make silly or childlike decisions while simultaneously prioritizing visual balance. The process is playful and additive, like decorating a cake, or furnishing a dollhouse. Anthropomorphized
+      fruits, flowers, and butterflies are positioned so their unmoving eyes tell the story.
+      In this body of work, bugs, fruits, and flower-figures grapple with certain hard-to-describe human feelings, relating to comfort, anxiety, love, and grief. Ambiguous emotions are manifested in glossy eyes and half-smiles. A moth seems content to be cradled between orchid blooms at midnight. In the morning, a rose with a knotted stem is crying just because she felt like crying, as the butterfly below avoids eye contact. At sunset, sweaty lemons pose impatiently in their bowl, stealing sideways glances and gritting their teeth. This work is inspired by big, heavy feelings and their mysterious origins—the sudden
+      pangs of anxiety the strike in childhood, as well as the moments of abundance and bliss.
+      Ultimately in these paintings I seek to find order in chaos, joy in mess, and humor in tragedy.”
+             </p2>
+	  <div class="paylink"><a href="mailto:hasbrookgalleries@gmail.com">contact for purchase</a></div>
+</div>
+</div>
+</html>
+
+
+<script>
+    function myFunction() {
+      document.getElementById("myDropdown").classList.toggle("show");
+    }
+
+    window.onmouseover = function(e) {
+      if (!e.target.matches('.dropbtn') && !e.target.matches('.dropdown-content a')) {
+      var myDropdown = document.getElementById("myDropdown");
+        if (myDropdown.classList.contains('show')) {
+          myDropdown.classList.remove('show');
+        }
+      }
+    }
+</script>

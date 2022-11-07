@@ -1,0 +1,61 @@
+<!DOCTYPE html>
+<html>
+<head>
+  <link rel = "stylesheet" type="text/css" href = "../hasbrook_pages_formatting.css">
+  <link href="https://fonts.googleapis.com/css?family=Kodchasan" rel="stylesheet">
+</head>
+
+<h1> <a href="../return_to_mysticisim.html"> HASBROOK GALLERIES </h1>
+
+<ul class="nav1">
+    <li><a href = "../return_to_mysticisim.html"> Return to Mysticisim </a></li>
+    <!--li><a href = "../nostalgia_page.html">Nostalgia</a></li-->
+    <li><a href="../hyper_contempp.html">Hyper-Contemporary</a></li>
+    <li><a href="../about.html">About</a></li>
+    <!--li-->
+    <div class = "dropdown"> 
+    <button class = "dropbtn" onmouseover="myFunction()"> Past Shows
+    </button>
+    <div class = 'dropdown-content' id = 'myDropdown'>
+        <a href ="../contemp_surrealism.html">Contemporary Surrealism</a>
+        <a href="../figurations.html">Figurative</a>
+        <a href="../unlined.html">Unlined</a>
+        <a href="../action_reaction.html">Library</a>
+        <a href="../hyper_contempp.html">Hyper-Contemporary</a>
+        <a href="../nft.html">nfts</a>
+    </div>
+    </div>
+    <!--/li-->
+</ul>
+
+<div class="row">
+	<div>
+	<img class="work" src="Succubus no.10x_Aron_Lorincz.jpg">
+	</div>
+	<div class = "aboutTheWork">
+		<h1 class = "title"> Succubus no.10x </h1>
+    <h2 class = "artistInfoEtc"> Áron Lőrincz </h2>
+        <h4 class = "artistInfoEtc"> Wood, Mixed Media,  </h4>
+		<h4 class = "artistInfoEtc"> 350 x 105 cm </h4>
+		<p2 class = "artistBio"> Áron Lőrincz usually picks such religious and social themes for his works that have been with us for hundreds of years, and, apparently, to which there exists generally accepted answers and solutions. As such, these troubles seem to have already been resolved, yet we are still unable to let go of them. The historical answers of a given age are tied to certain places and times, and tend to change dynamically. One reason for this may be is that the scientific world has never been free from ideological influence, and the explanations it delivers are not necessarily eternal and satisfactory either. It is in such instances, that the proliferation of skeptical, anti-scientific thoughts arises. It is interesting to note the high number of overlapping and sometimes even identical beliefs and theories of ancient and contemporary times. He seeks to bring these tensions to the surface and redefine them.
+        </p2>
+        <div class="paylink"><a href="mailto:hasbrookgalleries@gmail.com">contact for purchase</a></div>
+</div>
+</div>
+</html>
+
+
+<script>
+    function myFunction() {
+      document.getElementById("myDropdown").classList.toggle("show");
+    }
+
+    window.onmouseover = function(e) {
+      if (!e.target.matches('.dropbtn') && !e.target.matches('.dropdown-content a')) {
+      var myDropdown = document.getElementById("myDropdown");
+        if (myDropdown.classList.contains('show')) {
+          myDropdown.classList.remove('show');
+        }
+      }
+    }
+</script>

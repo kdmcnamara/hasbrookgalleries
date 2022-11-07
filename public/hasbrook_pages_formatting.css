@@ -181,3 +181,47 @@ a {
 	margin-right: auto;
 }
 */
+
+
+.dropdown {
+
+float: left;
+overflow: hidden;
+list-style-type: none;
+text-align: center;
+height: 30px;
+top: 39px;
+padding: 3px;
+
+}
+
+.dropdown .dropbtn {	
+  text-decoration: none;
+font-family: "Kodchasan";
+  cursor: pointer;
+  border: none;
+  outline: none;
+  margin: 0;
+background-color:transparent;	
+font-size: 12px;
+text-align: center;
+}
+
+.dropdown-content {
+font-size: 12px;
+  display: none; 
+  position: absolute; 
+  background-color:rgb(20, 255, 11);
+}
+
+.dropdown-content a {
+  float: none;
+  color: black;
+  text-decoration: none;
+  display: block;
+top: 15px;
+}
+
+.show {
+  display: block;
+}

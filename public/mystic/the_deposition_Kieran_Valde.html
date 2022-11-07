@@ -1,0 +1,61 @@
+<!DOCTYPE html>
+<html>
+<head>
+  <link rel = "stylesheet" type="text/css" href = "../hasbrook_pages_formatting.css">
+  <link href="https://fonts.googleapis.com/css?family=Kodchasan" rel="stylesheet">
+</head>
+
+<h1> <a href="../return_to_mysticisim.html"> HASBROOK GALLERIES </h1>
+
+<ul class="nav1">
+    <li><a href = "../return_to_mysticisim.html"> Return to Mysticisim </a></li>
+    <!--li><a href = "../nostalgia_page.html">Nostalgia</a></li-->
+    <li><a href="../hyper_contempp.html">Hyper-Contemporary</a></li>
+    <li><a href="../about.html">About</a></li>
+    <!--li-->
+    <div class = "dropdown"> 
+    <button class = "dropbtn" onmouseover="myFunction()"> Past Shows
+    </button>
+    <div class = 'dropdown-content' id = 'myDropdown'>
+        <a href ="../contemp_surrealism.html">Contemporary Surrealism</a>
+        <a href="../figurations.html">Figurative</a>
+        <a href="../unlined.html">Unlined</a>
+        <a href="../action_reaction.html">Library</a>
+        <a href="../hyper_contempp.html">Hyper-Contemporary</a>
+        <a href="../nft.html">nfts</a>
+    </div>
+    </div>
+    <!--/li-->
+</ul>
+
+<div class="row">
+	<div>
+	<img class="work" src="the_deposition_Kieran_Valde.jpg">
+	</div>
+	<div class = "aboutTheWork">
+		<h1 class = "title"> The Deposition </h1>
+    <h2 class = "artistInfoEtc"> Kieran Valde </h2>
+        <h4 class = "artistInfoEtc"> Oil on Canvas </h4>
+		<h4 class = "artistInfoEtc"> 20 x 20 in </h4>
+		<p2 class = "artistBio"> About the Work :: “I am fascinated by the history of how objects have been collected and replicated, as well as how canons were established. The history of Western art is white, elite, male, and Eurocentric. It has been centred on the mythos of the artist rather than on the artworks themselves. My paintings are important records of looking at these images. I make ironic reproductions that have their own indelible authenticity. They are representations of canonical paintings from art history– mediated images I have accessed through the proliferation of photography and the internet. Creating these paintings is a way for me to connect with the history of image making. My process of transforming Baroque and Renaissance paintings, historically intended to achieve a sense of awe, is partly satirical but also reverential. By studying their technique and then deviating from the reference, my paintings are exercises in empathy. My works are more distorted and chaotic than the versions hanging in museums. It is my effort at conversing with their power.”
+        </p2>
+        <div class="paylink"><a href="mailto:hasbrookgalleries@gmail.com">contact for purchase</a></div>
+</div>
+</div>
+</html>
+
+
+<script>
+    function myFunction() {
+      document.getElementById("myDropdown").classList.toggle("show");
+    }
+
+    window.onmouseover = function(e) {
+      if (!e.target.matches('.dropbtn') && !e.target.matches('.dropdown-content a')) {
+      var myDropdown = document.getElementById("myDropdown");
+        if (myDropdown.classList.contains('show')) {
+          myDropdown.classList.remove('show');
+        }
+      }
+    }
+</script>

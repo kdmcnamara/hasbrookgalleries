@@ -8,15 +8,26 @@ s<!DOCTYPE html>
 <h1> <a href="med.html"> HASBROOK GALLERIES </h1>
 
 <ul class="nav1">
-	<li><a href = "contemp_surrealism.html">Contemporary Surrealism</a></li>
-	<li><a href="figurations.html">Figurative</a></li>
-	<li><a href="unlined.html">Unlined</a></li>
-	<li><a href="action_reaction.html">Library</a></li>
-	<li><a href="hyper_contempp.html">Hyper-Contemporary</a></li>
-  <li><a href="nft.html">nfts</a></li>
-	<li><a href="about.html">About</a></li>
+  <li><a href = "hyper_contemp_ii.html"> Hyper-Contemporary Act ii </a></li>
+  <li><a href = "return_to_mysticisim.html">Return to Mysticisim</a></li>
+    <li><a href="hyper_contempp.html">Hyper-Contemporary</a></li>
+  <li><a href="about.html">About</a></li>
+    <!--li-->
+    <div class = "dropdown"> 
+    <button class = "dropbtn" onmouseover="myFunction()"> Past Shows
+    </button>
+    <div class = 'dropdown-content' id = 'myDropdown'>
+        <a href ="contemp_surrealism.html">Contemporary Surrealism</a>
+        <a href="figurations.html">Figurative</a>
+        <a href="unlined.html">Unlined</a>
+        <a href="action_reaction.html">Library</a>
+        <a href="hyper_contempp.html">Hyper-Contemporary</a>
+        <a href="nft.html">nfts</a>
+    </div>
+    </div>
+    <!--/li-->
 </ul>
-
+  
 <div class="row">
 	<div style="z-index: -1">
 	<img class="vid" src="action_reaction/action_reaction_gif.gif">
@@ -42,3 +53,18 @@ s<!DOCTYPE html>
 </div>
 </div>
 </html>
+
+<script>
+  function myFunction() {
+    document.getElementById("myDropdown").classList.toggle("show");
+  }
+
+  window.onmouseover = function(e) {
+    if (!e.target.matches('.dropbtn') && !e.target.matches('.dropdown-content a')) {
+    var myDropdown = document.getElementById("myDropdown");
+      if (myDropdown.classList.contains('show')) {
+        myDropdown.classList.remove('show');
+      }
+    }
+  }
+  </script>

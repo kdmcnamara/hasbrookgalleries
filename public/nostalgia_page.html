@@ -1,0 +1,523 @@
+<!DOCTYPE html>
+<html>
+<head>
+<link href="https://fonts.googleapis.com/css?family=Kodchasan" rel="stylesheet">
+<style>
+	
+a {
+	color: black;
+}
+
+h1 {
+	font-family: "Kodchasan";
+	}
+h1 a {
+	margin: 20px;
+	color: black;
+	text-decoration: none;
+	}
+h1 a:hover{
+	color: cornflowerblue;
+	}
+
+.nav1 {
+	list-style-type: none;
+	text-align: center;
+	margin: 0;
+	padding: 12px;
+	height: 30px;
+	position: fixed;
+	top: 15px;
+	right: 0px;
+}
+
+.nav1 li {
+	display: inline-block;
+	font-size: 12px;
+	padding: 5px;
+	text-decoration: none;
+	font-family: "Kodchasan";
+	color: red;
+	}
+
+.nav1 a:link {
+	text-decoration: none;
+	font-family: "Kodchasan";
+	}
+
+.nav1 a:hover {
+	color: rgb(20, 255, 11);
+	text-decoration: none;
+	font-family: "Kodchasan";
+}
+
+.dropdown {
+
+    float: left;
+    overflow: hidden;
+	list-style-type: none;
+	text-align: center;
+	height: 30px;
+	top: 39px;
+	padding: 3px;
+	
+}
+
+.dropdown .dropbtn {	
+    text-decoration: none;
+	font-family: "Kodchasan";
+    cursor: pointer;
+    border: none;
+    outline: none;
+    margin: 0;
+	background-color:transparent;	
+	font-size: 12px;
+	text-align: center;
+}
+
+.dropdown-content {
+	font-size: 12px;
+    display: none; 
+    position: absolute; 
+    background-color:rgb(20, 255, 11);
+}
+
+.dropdown-content a {
+    float: none;
+    color: black;
+    text-decoration: none;
+    display: block;
+	top: 15px;
+}
+
+.show {
+    display: block;
+}
+
+.row {
+	display: flex;
+	padding: 12px;
+	}
+
+.column {
+	flex: 25%;
+	/*padding: 12px;*/
+	padding: 24px;
+	}
+
+.blurb {
+	font-family: "Kodchasan";
+	font-size: 15px;
+	text-align: center;
+	margin-top: 50px;
+	margin-bottom: 15px;
+	margin-left: 500px;
+	margin-right: 500px;
+	color: crimson;
+	background: coral;
+	padding:12px;
+}
+
+img {
+	height: auto;
+	width: 100%;
+	}
+
+.name {
+	color: purple;
+	font-size: 12px;
+	padding: 3px;
+	text-align: center;
+	font-family: "Kodchasan";
+	}
+.name a:link {
+	font-family: "Kodchasan";
+	font-size: 20px;
+	color: black;
+	text-decoration: none;
+	}
+.name a:hover {
+	font-family: "Kodchasan";
+	color: purple;
+	text-decoration: none;
+	}
+
+</style>
+</head>
+
+
+<h1> <a href="med.html"> HASBROOK GALLERIES </a></h1>
+<ul class="nav1">
+	<li><a href = "hyper_contemp_ii.html"> Hyper-Contemporary Act ii </a></li>
+	<li><a href = "nostalgia_page.html">Nostalgia</a></li>
+    <li><a href="hyper_contempp.html">Hyper-Contemporary</a></li>
+	<li><a href="about.html">About</a></li>
+    <!--li-->
+    <div class = "dropdown"> 
+    <button class = "dropbtn" onmouseover="myFunction()"> Past Shows
+    </button>
+    <div class = 'dropdown-content' id = 'myDropdown'>
+        <a href ="contemp_surrealism.html">Contemporary Surrealism</a>
+        <a href="figurations.html">Figurative</a>
+        <a href="unlined.html">Unlined</a>
+        <a href="action_reaction.html">Library</a>
+        <a href="hyper_contempp.html">Hyper-Contemporary</a>
+        <a href="nft.html">nfts</a>
+    </div>
+    </div>
+    <!--/li-->
+</ul>
+
+<div class="name">
+	style="padding: 0px; margin-bottom: 0px">
+	<a href="virtual_gallery/index.html">This show was done in collaboration with Kaliedo</a></div>
+    <a href="BLAH BLAH">Download the app here to experience the show in AR</a> 
+</div>
+
+<div class = "row">
+	<div class="column">
+		<a href="nostalgia/garlic_bulb_and_garlic_bulbina_Oosterman.html">
+		<img src="nostalgia/garlic_bulb_and_garlic_bulbina_Oosterman.jpg"></a>
+		<div class="name"> <a href="nostalgia/garlic_bulb_and_garlic_bulbina_Oosterman.html"> Garlic Bulb and Garlic Bulbina </a></div>
+		<div class="name"> Melcher Oosterman </div>
+		<div class="name"> Digital </div>
+		<div class="name"> 12 x 24 in </div>
+	</div>
+	<div class="column">
+		<a href="nostalgia/V-day_Oosterman.html">
+		<img src="nostalgia/V-day_Oosterman.jpg"></a>
+		<div class="name"><a href="nostalgia/V-day_Oosterman.html">V-day</a></div>
+		<div class="name"> Melcher Oosterman </div>
+		<div class="name"> Digital </div>
+		<div class="name"> 12 x 24 in </div>
+	</div>
+</div>
+
+<div class = "row">
+	<div class="column">
+		<a href="nostalgia/heart_in_jail_Hoffman.html">
+		<img src="nostalgia/heart _in_jail_Hoffman.jpg"></a>
+		<div class="name"> <a href="nostalgia/heart_in_jail_Hoffman.html"> Heart in Jail </a></div>
+		<div class="name"> Anna Hoffman </div>
+		<div class="name"> Acrylic on Canvas </div>
+		<div class="name"> 50 x 60 cm </div>
+	</div>
+    <div class="column">
+		<a href="nostalgia/beach_attack_Fediv.html">
+		<img src="nostalgia/beach_attack_Fediv2.jpg"></a>
+		<div class="name"><a href="nostalgia/beach_attack_Fediv.html"> Beach Attack </a></div>
+		<div class="name"> Nadia Fediv </div>
+		<div class="name"> Oil on Canvas </div>
+		<div class="name"> 36 x 36 in </div>
+	</div>
+    <div class="column">
+		<a href="nostalgia/ceremony_Yuree.html">
+		<img src="nostalgia/ceremony_Yuree.png"></a>
+		<div class="name"><a href="nostalgia/ceremony_Yuree.html"> Ceremony </a></div>
+		<div class="name"> Cha Yuree </div>
+		<div class="name"> Acrylic on Canvas </div>
+		<div class="name"> 30 x 24 in </div>
+	</div>
+</div>
+
+<div class = "row">
+    <div class="column">
+		<a href="nostalgia/gaia_before_the_consumption_Emki.html">
+		<img src="nostalgia/gaia_before_the_consumption_Emki.jpeg"></a>
+		<div class="name"><a href="nostalgia/gaia_before_the_consumption_Emki.html"> Gaia Before the Consumption </a></div>
+		<div class="name"> Emki </div>
+		<div class="name"> Acrylic on Wood Panel </div>
+		<div class="name"> 71 x 54 cm </div>
+	</div>
+	<div class="column">
+		<a href="nostalgia/NYC_street_vendor_Cotti.html">
+		<img src="nostalgia/NYC_street_vendor_Cotti.jpeg"></a>
+		<div class="name"><a href="nostalgia/NYC_street_vendor_Cotti.html">NYC Street Vendor Selling Knock Off Louis Vitton Bags on Canal Street</a></div>
+		<div class="name"> Liam Cotti </div>
+		<div class="name"> Spay Paint on Canvas </div>
+		<div class="name"> 36 x 48 in </div>
+	</div>
+</div>
+
+<div class = "row"
+	style="width: 40%; height: 40%;
+	margin-left: auto; margin-right: auto">
+    <div class="column">
+        <a href="nostalgia/bigMood_Surman.html">
+        <img src="nostalgia/bigMood_Surman.png"></a>
+        <div class="name"> <a href="nostalgia/bigMood_Surman.html"> Big Mood </a></div>
+        <div class="name"> David Surman </div>
+        <div class="name"> Acrylic on Canvas </div>
+        <div class="name"> 10 x 12 in </div>
+    </div>
+</div>
+
+<div class = "row">
+	<div class="column">
+		<a href="nostalgia/angel_riding_destroyer_Emki.html">
+		<img src="nostalgia/angel_riding_destroyer_Emki.png"></a>
+		<div class="name"><a href="nostalgia/angel_riding_destroyer_Emki.html">Angel Riding Destroyer</a></div>
+		<div class="name"> Emki </div>
+		<div class="name"> Acrylic, Spray Paint, Posca Pen and Marble Dust on Canvas</div>
+		<div class="name"> 51 x 41 cm </div>
+	</div>
+    <div class="column">
+        <a href="nostalgia/Fire_IV_Sims.html">
+        <img src="nostalgia/Fire_IV_Sims.jpg"></a>
+        <div class="name"> <a href="nostalgia/Fire_IV_Sims.html"> Fire IV </a></div>
+        <div class="name"> Morgan Sims </div>
+        <div class="name"> Acrylic on Canvas </div>
+        <div class="name"> 20 x 20 in </div>
+    </div>
+    <div class="column">
+		<a href="nostalgia/still_life_with_table_and_guitar_weselmann2.html">
+		<img src="nostalgia/still_life_with_table_and_guitar_weselmann2.png"></a>
+		<div class="name"><a href="nostalgia/still_life_with_table_and_guitar_weselmann2.html">Still Life with Table and Guitar</a></div>
+		<div class="name"> Evan Weselmann </div>
+		<div class="name"> Acrylic on Canvas</div>
+		<div class="name"> 40 x 30 in </div>
+	</div>
+</div>
+
+<div class = "row"
+	style="width: 40%; height: 40%;
+	margin-left: auto; margin-right: auto">
+	<div class="column">
+		<a href="nostalgia/nostalgia_Pak.html">
+		<img src="nostalgia/nostalgia_Pak.jpg"></a>
+		<div class="name"> <a href="nostalgia/nostalgia_Pak.html"> N(ostalgia)64 </a></div>
+		<div class="name"> Jeff Pak </div>
+		<div class="name"> Acrylic on Canvas </div>
+		<div class="name"> 30 x 24 in </div>
+	</div>
+	<div class="column">
+		<a href="nostalgia/panic_lil_Kool.html">
+		<img src="nostalgia/panic_lil_Kool.jpg"></a>
+		<div class="name"><a href="nostalgia/panic_lil_Kool.html">Panic</a></div>
+		<div class="name"> Joshua Maupin (Lil Kool) </div>
+		<div class="name"> Spray Paint and Oil on Canvas </div>
+		<div class="name"> 24 x 32 in </div>
+	</div>
+</div>
+
+<div class = "row">
+	<div class="column">
+		<a href="nostalgia/trini_vs_the_terror_toad_Kim.html">
+		<img src="nostalgia/trini_vs_the_terror_toad_Kim.png"></a>
+		<div class="name"> <a href="nostalgia/trini_vs_the_terror_toad_Kim.html"> Trini vs The Terror Toad </a></div>
+		<div class="name"> Sarah Kim </div>
+		<div class="name"> Acrylic, Color Pencil, Oil Pastel, Spray Paint, Matte Dura-Lar Film, Pastel on Paper </div>
+		<div class="name"> 48 x 36 in </div>
+	</div>
+	<div class="column">
+		<a href="nostalgia/still_life_with_vase_and_banana_Weselmann.html">
+		<img src="nostalgia/still_life_with_vase_and_banana_Weselmann2.jpg"></a>
+		<div class="name"><a href="nostalgia/still_life_with_vase_and_banana_Weselmann.html">Still Life With Vase and Banana</a></div>
+		<div class="name"> Evan Wessleman </div>
+		<div class="name"> Acrylic on Canvas </div>
+		<div class="name"> 30 x 40 in </div>
+	</div>
+	<div class="column">
+		<a href="hyper_contemp/birdseyeviewofanotherbird-crop_van_H.html">
+		<img src="hyper_contemp/birdseyeviewofanotherbird-crop_van_H.jpg"></a>
+		<div class="name"><a href="hyper_contemp/birdseyeviewofanotherbird-crop_van_H.html"> First Encounter </a></div>
+		<div class="name"> Amber Larks </div>
+		<div class="name"> Oil on Canvas </div>
+		<div class="name"> 38 x 40 in </div>
+	</div>
+</div>
+
+<div class = "row">
+	<div class="column">
+		<a href="hyper_contemp/study3_Keimig.html">
+		<img src="hyper_contemp/Study3_Keimig.jpeg"></a>
+		<div class="name"> <a href="hyper_contemp/study3_Keimig.html"> Study 3 </a></div>
+		<div class="name"> Ramon Keimig </div>
+		<div class="name"> Digital Drawing, Laser Print on Paper, 1 of 1 </div>
+		<div class="name"> 42 x 29.7 cm </div>
+	</div>
+    <div class="column">
+		<a href="hyper_contemp/study2_Keimig.html">
+		<img src="hyper_contemp/Study2_Keimig.jpeg"></a>
+		<div class="name"> <a href="hyper_contemp/study2_Keimig.html"> Study 2 </a></div>
+		<div class="name"> Ramon Keimig </div>
+		<div class="name"> Digital Drawing, Laser Print on Paper, 1 of 1 </div>
+		<div class="name"> 42 x 29.7 cm </div>
+	</div>
+    <div class="column">
+		<a href="hyper_contemp/scene4_Keimig.html">
+		<img src="hyper_contemp/Scene4_Keimig.jpeg"></a>
+		<div class="name"> <a href="hyper_contemp/scene4_Keimig.html"> Scene 4 </a></div>
+		<div class="name"> Ramon Keimig </div>
+		<div class="name"> Digital Drawing, Laser Print on Paper, 1 of 1 </div>
+		<div class="name"> 42 x 29.7 cm </div>
+	</div>
+    <div class="column">
+		<a href="hyper_contemp/scene3_Keimig.html">
+		<img src="hyper_contemp/Scene3_Keimig.jpeg"></a>
+		<div class="name"> <a href="hyper_contemp/scene3_Keimig.html"> Scene 3 </a></div>
+		<div class="name"> Ramon Keimig </div>
+		<div class="name"> Digital Drawing, Laser Print on Paper, 1 of 1 </div>
+		<div class="name"> 42 x 29.7 cm </div>
+	</div>
+</div>
+
+<div class = "row">
+	<div class="column">
+		<a href="hyper_contemp/@haha_ipaint_McCormick.html">
+		<img src="hyper_contemp/@haha_ipaint_crop_McCormick.jpg"></a>
+		<div class="name"> <a href="hyper_contemp/@haha_ipaint_McCormick.html"> @haha_ipaint </a></div>
+		<div class="name"> Isabelle McCormick </div>
+		<div class="name"> Acrylic, Oil, and Swarovski Crystal Rhinestone on Canvas </div>
+		<div class="name"> 38 x 30 in </div>
+	</div>
+	<div class="column">
+		<a href="hyper_contemp/Jane_Massey.html">
+		<img src="hyper_contemp/Jane_Massey.jpg"></a>
+		<div class="name"><a href="hyper_contemp/Jane_Massey.html">Jane</a></div>
+		<div class="name"> Bex Massey </div>
+		<div class="name"> Acrylic, Oil, and Enamel on Linen </div>
+		<div class="name"> 130 x 130 cm </div>
+	</div>
+	<div class="column">
+		<a href="hyper_contemp/its_easier_to_get_Horak.html">
+		<img src="hyper_contemp/its_easier_to_get_Horak.jpg" 
+			style="width: 70%; height: auto; display: block; 
+					margin-left: auto; margin-right: auto"></a>
+		<div class="name"><a href="its_easier_to_get_Horak.html"> It's eaiser for me to get closer to heaven, than to ever feel whole again </a></div>
+		<div class="name"> Sabrina Horak </div>
+		<div class="name"> Color Pencil on Paper Collage </div>
+		<div class="name"> 9.8 x 13.9 in </div>
+	</div>
+</div>
+
+<div class = "row">
+	<div class="column">
+		<a href="hyper_contemp/Underground_Connections_Keresztesi.html">
+		<img src="hyper_contemp/Underground_Connections_Keresztesi.jpg"></a>
+		<div class="name"> <a href="hyper_contemp/Underground_Connections_Keresztesi.html"> Underground Connections </a></div>
+		<div class="name"> Botond Keresztesi </div>
+		<div class="name"> Acrylic and Oil on Canvas </div>
+		<div class="name"> 120 x 120 cm </div>
+	</div>
+    <div class="column">
+		<a href="hyper_contemp/la_bolotta_ermini.html">
+		<img src="hyper_contemp/la_bolotta_ermini.jpg"></a>
+		<div class="name"> <a href="hyper_contemp/la_bolotta_ermini.html"> La Bolotta </a></div>
+		<div class="name"> Gabriele Ermini </div>
+		<div class="name"> Acrylic and Oil on Canvas </div>
+		<div class="name"> 120 x 100 cm </div>
+	</div>
+</div>
+
+<div class = "row"
+	style="width: 40%; height: 40%;
+		margin-left: auto; margin-right: auto">
+	<div class="column">
+		<a href="hyper_contemp/the_Singer_Girsch.html">
+		<img src="hyper_contemp/the_Singer_crop_Girsch.jpg"></a>
+		<div class="name"> <a href="hyper_contemp/the_Singer_Girsch.html"> The Singer </a></div>
+		<div class="name"> Bryant Girsch </div>
+		<div class="name"> Oil on Canvas </div>
+		<div class="name"> 24 x 24 in </div>
+	</div>
+</div>
+
+<div class = "row">
+	<div class="column">
+		<a href="hyper_contemp/Gold_Standard_Eslick.html">
+		<img src="hyper_contemp/Gold_Standard_Eslick.jpg"></a>
+		<div class="name"> <a href="hyper_contemp/Gold_Standard_Eslick.html"> Gold Standard </a></div>
+		<div class="name"> Anthony Eslick </div>
+		<div class="name"> Acrylic on Panel </div>
+		<div class="name"> 36 x 24 in </div>
+	</div>
+	<div class="column">
+		<a href="hyper_contemp/work_Meeting_Girsch.html">
+		<img src="hyper_contemp/Work_Meeting_crop_Girsch.jpg"></a>
+		<div class="name"><a href="hyper_contemp/work_Meeting_Girsch.html">Work Meeting</a></div>
+		<div class="name"> Bryant Girsch </div>
+		<div class="name"> Acrylic and Oil on Canvas </div>
+		<div class="name"> 30 x 24 in </div>
+	</div>
+	<div class="column">
+		<a href="hyper_contemp/Sole_Coure_Cegani.html">
+		<img src="hyper_contemp/Sole _Coure_crop_Cegani.jpeg"></a>
+		<div class="name"><a href="Sole_Coure_Cegani.html"> Sole Coure </a></div>
+		<div class="name"> Filippo Cegani </div>
+		<div class="name"> Acrylic on Board </div>
+		<div class="name"> 30 x 20 cm </div>
+	</div>
+</div>
+
+<div class = "row">
+	<div class="column">
+		<a href="hyper_contemp/promise-hydroponic-crop_van_H.html">
+		<img src="hyper_contemp/promise-hydroponic-crop_van_H.jpg"></a>
+		<div class="name"> <a href="hyper_contemp/promise-hydroponic-crop_van_H.html"> promisewheelbarrow(hydroponics) </a></div>
+		<div class="name"> Luke van H </div>
+		<div class="name"> Acrylic on Panel </div>
+		<div class="name"> 18 x 24 in </div>
+	</div>
+	<div class="column">
+		<a href="hyper_contemp/Primaries_Yellow_Massey.html">
+		<img src="hyper_contemp/Primaries_Yellow_Massey.jpg"></a>
+		<div class="name"><a href="hyper_contemp/Primaries_Yellow_Massey.html">Primaries Yellow</a></div>
+		<div class="name"> Bex Massey </div>
+		<div class="name"> Acrylic and Oil on Canvas </div>
+		<div class="name"> 78.5 x 78.5 cm </div>
+	</div>
+	<div class="column">
+		<a href="hyper_contemp/tyler_ermini.html">
+		<img src="hyper_contemp/tyler_ermini.jpg"></a>
+		<div class="name"><a href="tyler_ermini.html"> Tyler </a></div>
+		<div class="name"> Gabriele Ermini </div>
+		<div class="name"> Acrylic and Oil on Canvas </div>
+		<div class="name"> 100 x 120 cm </div>
+	</div>
+</div>
+
+
+<div class = "row">
+	<div class="column">
+		<a href="hyper_contemp/Erroneous_Handshake_Cegani.html">
+		<img src="hyper_contemp/Erroneous_Handshake_crop_Cegani.jpeg"></a>
+		<div class="name"> <a href="hyper_contemp/Erroneous_Handshake_Cegani.html"> Erroneous Handshake </a></div>
+		<div class="name"> Filippo Cegani </div>
+		<div class="name"> Acrylic on Wooden Board </div>
+		<div class="name"> 40 x 50 cm </div>
+	</div>
+	<div class="column">
+		<a href="hyper_contemp/Tree_Keimig.html">
+		<img src="hyper_contemp/Tree_Keimig.jpeg"></a>
+		<div class="name"><a href="hyper_contemp/Tree_Keimig.html">Tree</a></div>
+		<div class="name"> Ramon Keimig </div>
+		<div class="name"> Digital Drawing, Laser Print on Paper, 1 of 1 </div>
+		<div class="name"> 21 x 29.7 cm </div>
+	</div>
+	<div class="column">
+		<a href="hyper_contemp/Mouth_of_the_Dessert_Eslick.html">
+		<img src="hyper_contemp/Mouth_of_the_Dessert_Eslick.jpg"></a>
+		<div class="name"><a href="hyper_contemp/Mouth_of_the_Dessert_Eslick.html"> Mouth of the Dessert </a></div>
+		<div class="name"> Anthony Eslick </div>
+		<div class="name"> Acrylic on Panel, Framed </div>
+		<div class="name"> 13.5 x 17.5 in </div>
+	</div>
+</div>
+
+<script>
+    function myFunction() {
+      document.getElementById("myDropdown").classList.toggle("show");
+    }
+
+    window.onmouseover = function(e) {
+      if (!e.target.matches('.dropbtn') && !e.target.matches('.dropdown-content a')) {
+      var myDropdown = document.getElementById("myDropdown");
+        if (myDropdown.classList.contains('show')) {
+          myDropdown.classList.remove('show');
+        }
+      }
+    }
+    </script>
+
+</html>
